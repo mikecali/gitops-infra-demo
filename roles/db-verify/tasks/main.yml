@@ -14,7 +14,7 @@
   postgresql_db: 
       name: "{{ item }}"
       template: template0
-      state: absent
+      state: present
   with_items: "{{ db_name }}"
 
 - name: Add user
