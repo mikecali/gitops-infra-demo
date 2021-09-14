@@ -1,0 +1,7 @@
+---
+- name: verify postgresql
+  hosts: all
+  become_user: postgres
+  become: yes
+  roles:
+    - db-drop 
