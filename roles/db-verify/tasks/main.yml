@@ -5,6 +5,5 @@
   become_user: postgres
   postgresql_ping:
     db: miketest
-    login_host: postgres
     login_user: postgres
     login_password: postres
