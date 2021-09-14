@@ -3,6 +3,6 @@
 - name: verify miketestdb is available
   become: true
   become_user: postgres
-  community.general.postgresql_query:
+  community.postgresql.postgresql_query:
     db: miketest
     query: SELECT version()

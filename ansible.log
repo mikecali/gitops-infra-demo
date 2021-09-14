@@ -1,0 +1,44 @@
+2021-09-13 22:41:24,456 p=331562 u=root n=ansible | Process install dependency map
+2021-09-13 22:41:24,457 p=331562 u=root n=ansible | |
+2021-09-13 22:41:24,557 p=331562 u=root n=ansible | /
+2021-09-13 22:41:24,658 p=331562 u=root n=ansible | -
+2021-09-13 22:41:24,758 p=331562 u=root n=ansible | \
+2021-09-13 22:41:24,859 p=331562 u=root n=ansible | |
+2021-09-13 22:41:24,959 p=331562 u=root n=ansible | /
+2021-09-13 22:41:25,059 p=331562 u=root n=ansible | -
+2021-09-13 22:41:25,160 p=331562 u=root n=ansible | \
+2021-09-13 22:41:25,260 p=331562 u=root n=ansible | |
+2021-09-13 22:41:25,360 p=331562 u=root n=ansible | /
+2021-09-13 22:41:25,461 p=331562 u=root n=ansible | -
+2021-09-13 22:41:25,561 p=331562 u=root n=ansible | \
+2021-09-13 22:41:25,661 p=331562 u=root n=ansible | |
+2021-09-13 22:41:25,762 p=331562 u=root n=ansible | /
+2021-09-13 22:41:25,862 p=331562 u=root n=ansible | -
+2021-09-13 22:41:25,963 p=331562 u=root n=ansible | \
+2021-09-13 22:41:26,063 p=331562 u=root n=ansible | |
+2021-09-13 22:41:26,163 p=331562 u=root n=ansible | /
+2021-09-13 22:41:26,264 p=331562 u=root n=ansible | Starting collection install process
+2021-09-13 22:41:26,264 p=331562 u=root n=ansible | |
+2021-09-13 22:41:26,365 p=331562 u=root n=ansible | Installing 'community.postgresql:1.4.0' to '/root/.ansible/collections/ansible_collections/community/postgresql'
+2021-09-13 22:41:26,365 p=331562 u=root n=ansible | /
+2021-09-13 22:41:26,466 p=331562 u=root n=ansible | -
+2021-09-13 22:41:26,566 p=331562 u=root n=ansible | \
+2021-09-13 22:41:26,666 p=331562 u=root n=ansible | |
+2021-09-13 22:41:26,767 p=331562 u=root n=ansible | /
+2021-09-13 22:41:26,867 p=331562 u=root n=ansible | -
+2021-09-13 22:41:26,967 p=331562 u=root n=ansible | \
+2021-09-13 22:41:27,068 p=331562 u=root n=ansible | |
+2021-09-13 22:41:27,168 p=331562 u=root n=ansible | /
+2021-09-13 22:41:27,268 p=331562 u=root n=ansible | -
+2021-09-13 22:41:27,369 p=331562 u=root n=ansible | \
+2021-09-13 22:41:27,469 p=331562 u=root n=ansible | |
+2021-09-13 22:41:27,569 p=331562 u=root n=ansible | /
+2021-09-13 22:41:27,670 p=331562 u=root n=ansible | -
+2021-09-13 22:41:27,770 p=331562 u=root n=ansible | \
+2021-09-13 22:41:27,871 p=331562 u=root n=ansible | |
+2021-09-13 22:41:27,971 p=331562 u=root n=ansible | /
+2021-09-13 22:41:28,071 p=331562 u=root n=ansible | -
+2021-09-13 22:41:28,172 p=331562 u=root n=ansible | \
+2021-09-13 22:41:28,272 p=331562 u=root n=ansible | |
+2021-09-13 22:41:28,372 p=331562 u=root n=ansible | /
+2021-09-13 22:41:28,473 p=331562 u=root n=ansible | -
