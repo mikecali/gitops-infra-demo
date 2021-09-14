@@ -11,7 +11,7 @@
   
 - name: Add missing DB
   postgresql_db: 
-      name: miketest1
+      name: miketest
       template: template0
       state: absent
 
