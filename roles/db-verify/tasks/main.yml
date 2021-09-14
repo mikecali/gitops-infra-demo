@@ -4,16 +4,18 @@
   become: true
   become_user: postgres
   postgresql_ping:
-    db: "{{ db_name }}"
+    db: "{{ item }}"
     login_user: postgres
     login_password: postres
   register: results
+  with_items: "{{ db_name }}"
   
 - name: Add missing DB
   postgresql_db: 
-      name: "{{ db_name }}"
+      name: "{{ item }}"
       template: template0
       state: absent
+  with_items: "{{ db_name }}"
 
 - name: Add user
   postgresql_user: 
@@ -22,6 +24,7 @@
       password: postgres
       role_attr_flags: NOSUPERUSER,NOCREATEDB
       state: present
+  with_items: "{{ db_name }}"
   ignore_errors: yes
 
   
