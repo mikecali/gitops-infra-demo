@@ -8,6 +8,6 @@
       name: "{{ item }}"
       template: template0
       state: absent
-  with_items: "{{ drop_db }}"
+  with_items: "{{ drop_db_name }}"
 
   
