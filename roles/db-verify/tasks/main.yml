@@ -17,7 +17,7 @@
 
 - name: Add user
   postgresql_user: 
-      db: "{{ miketest }}"
+      db: "{{ db_name }}"
       name: postgres
       password: postgres
       role_attr_flags: NOSUPERUSER,NOCREATEDB
