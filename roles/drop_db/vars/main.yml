@@ -1,6 +1,4 @@
 ---
 # vars file for db-verify
 db_name: 
-- miketest
-- miketest1
 - miketest2

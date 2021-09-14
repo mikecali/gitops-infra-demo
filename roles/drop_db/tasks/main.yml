@@ -1,0 +1,13 @@
+---
+# tasks file for db-verify
+  
+- name: drop DB for testing
+  become: true
+  become_user: postgres
+  postgresql_db: 
+      name: "{{ item }}"
+      template: template0
+      state: absent
+  with_items: "{{ drop_db }}"
+
+  
