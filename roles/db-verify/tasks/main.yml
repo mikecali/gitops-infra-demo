@@ -23,7 +23,7 @@
   become: true
   become_user: postgres
   postgresql_user: 
-      db: "{{ db_name }}"
+      db: "{{ item }}"
       name: devops
       password: postgres
       role_attr_flags: NOSUPERUSER,NOCREATEDB
