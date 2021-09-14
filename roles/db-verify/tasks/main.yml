@@ -14,6 +14,7 @@
       name: miketest1
       template: template0
       state: present
+-name: Add user
   postgresql_user: 
       db: miketest1
       name: postgres
