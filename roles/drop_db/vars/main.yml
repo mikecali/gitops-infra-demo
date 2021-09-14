@@ -1,4 +1,4 @@
 ---
 # vars file for db-verify
-drob_db_name: 
+drop_db_name: 
 - miketest2
