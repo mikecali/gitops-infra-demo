@@ -4,4 +4,4 @@
   become_user: postgres
   become: yes
   roles:
-    - db_drop 
+    - drop_db 
