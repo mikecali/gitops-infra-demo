@@ -42,3 +42,16 @@
 2021-09-13 22:41:28,272 p=331562 u=root n=ansible | |
 2021-09-13 22:41:28,372 p=331562 u=root n=ansible | /
 2021-09-13 22:41:28,473 p=331562 u=root n=ansible | -
+2021-09-13 22:45:12,513 p=331836 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2021-09-13 22:45:12,636 p=331836 u=root n=ansible | ERROR! 'community.postgresql.postgresql_query' is not a valid attribute for a Play
+
+The error appears to be in '/root/gitops-infra-demo/verify-postgresql-state/roles/db-verify/tasks/main.yml': line 3, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# tasks file for db-verify
+- name: verify miketestdb is available
+  ^ here
+
