@@ -24,7 +24,7 @@
   become_user: postgres
   postgresql_user: 
       db: "{{ db_name }}"
-      name: postgres
+      name: devops
       password: postgres
       role_attr_flags: NOSUPERUSER,NOCREATEDB
       state: present
