@@ -18,7 +18,7 @@
       db: miketest1
       name: postgres
       password: postgres
-      rote_attr_flags=NOSUPERUSER, NOCREATEDB
+      rote_attr_flags: NOSUPERUSER,NOCREATEDB
       state: present
 
   
