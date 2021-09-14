@@ -1,2 +1,5 @@
 ---
 # vars file for db-verify
+db_name: 
+- miketest
+- miketest2

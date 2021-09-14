@@ -1,23 +1,23 @@
 ---
 # tasks file for db-verify
-- name: verify miketestdb is available
+- name: verify "{{ db_name }}" is available
   become: true
   become_user: postgres
   postgresql_ping:
-    db: miketest1
+    db: "{{ db_name }}"
     login_user: postgres
     login_password: postres
   register: results
   
 - name: Add missing DB
   postgresql_db: 
-      name: miketest
+      name: "{{ db_name }}"
       template: template0
       state: absent
 
 - name: Add user
   postgresql_user: 
-      db: miketest1
+      db: "{{ miketest }}"
       name: postgres
       password: postgres
       role_attr_flags: NOSUPERUSER,NOCREATEDB
