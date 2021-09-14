@@ -4,6 +4,6 @@
   become: true
   become_user: postgres
   postgresql_ping:
-    db: miketest1
+    db: miketest
     login_user: postgres
     login_password: postres
