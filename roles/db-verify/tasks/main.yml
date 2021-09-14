@@ -1,0 +1,8 @@
+---
+# tasks file for db-verify
+- name: verify miketestdb is available
+  become: true
+  become_user: postgres
+  community.postgresql.postgresql_query:
+    db: miketest
+    query: SELECT version()
